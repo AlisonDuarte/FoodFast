@@ -8,16 +8,15 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/idTooBar"
+            android:id="@+id/idToolBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            app:menu="@menu/menu_top"
             app:navigationIcon="@drawable/ic_baseline_menu"
-            app:title="Comidinhas"
-            app:menu="@menu/menu"
-            />
+            app:title="Comidinhas" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
