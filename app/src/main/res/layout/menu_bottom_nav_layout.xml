@@ -10,14 +10,15 @@
         android:id="@+id/idContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@id/idBottomNav"
         android:background="#00BCD4" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/idBottomNav"
         style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:id="@+id/idBottomNav"
         android:layout_marginBottom="1dp"
         app:menu="@menu/menu_bottom_nav" />
 
